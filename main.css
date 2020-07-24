@@ -36,6 +36,7 @@ a {
     border-radius: 10px;
     box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
     height: calc(100% - 130px); 
+    overflow: scroll;
 }
 
 body {
@@ -78,4 +79,15 @@ html {
     box-shadow: inset 1px 1px 5px #242424, inset
     -1px -1px 5px #242424;
     animation: 1s;
+}
+
+.bigger {
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.firstbigger {
+    font-size: 35px;
+    margin-bottom: 10px;
 }
